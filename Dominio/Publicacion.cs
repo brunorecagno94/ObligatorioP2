@@ -8,6 +8,9 @@ namespace Dominio
 {
   public class Publicacion
   {
+
+    //HACER ENUM PARA ESTADO
+
     private int _idPublicacion;
     private string _nombrePublicacion;
     private string _estadoPublicacion;
