@@ -14,8 +14,6 @@ namespace Dominio
     private string _eMailUsuario;
     private string _passUsuario;
 
-
-
     public int IdUsuario { get; set; }
     public string NombreUsuario { get; set; }
     public string ApellidoUsuario { get; set; }
