@@ -33,3 +33,4 @@ C:\Obligatoriop2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.dll
 C:\Obligatoriop2\ObligatorioP2\Dominio\obj\Debug\net8.0\refint\Dominio.dll
 C:\Obligatoriop2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.pdb
 C:\Obligatoriop2\ObligatorioP2\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:\P2 VISUAL STUDIO\SistemaProyecto\Dominio\obj\Debug\net8.0\Dominio.sourcelink.json

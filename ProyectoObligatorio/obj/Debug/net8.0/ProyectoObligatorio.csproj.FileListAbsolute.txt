@@ -54,3 +54,4 @@ C:\Obligatoriop2\ObligatorioP2\ProyectoObligatorio\obj\Debug\net8.0\refint\Proye
 C:\Obligatoriop2\ObligatorioP2\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.pdb
 C:\Obligatoriop2\ObligatorioP2\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.genruntimeconfig.cache
 C:\Obligatoriop2\ObligatorioP2\ProyectoObligatorio\obj\Debug\net8.0\ref\ProyectoObligatorio.dll
+C:\P2 VISUAL STUDIO\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.sourcelink.json

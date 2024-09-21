@@ -8,41 +8,38 @@ namespace Dominio
 {
   public class Articulo
   {
+    #region Atributos
     public static int _idArticulo;
     private string _nombreArticulo;
     private string _categoriaArticulo;
     private int _precioArticulo;
+    #endregion
 
-
-
+    #region Propiedades
     public int IdArticulo { get; set; }
     public string NombreArticulo { get; set; }
     public string CategoriaArticulo { get; set; }
     public int PrecioArticulo { get; set; }
+    #endregion
 
-
-    public Articulo(int Id, string Nombre, string Categoria, int Precio)
+    #region Constructores
+    public Articulo(int id, string nombre, string categoria, int precio)
     {
-
-            _idArticulo = Id;
-            NombreArticulo = Nombre;
-            CategoriaArticulo = Categoria;
-            PrecioArticulo = Precio;
-
-
+      _idArticulo = id;
+      NombreArticulo = nombre;
+      CategoriaArticulo = categoria;
+      PrecioArticulo = precio;
     }
+    #endregion
 
+    #region Métodos
     public override string ToString()
     {
-            return $" id: {IdArticulo} ,nombre: {NombreArticulo} ,categoria: {CategoriaArticulo} ,precio: {PrecioArticulo} ";
-        }
-
-        public string devolvervalores()
-        {
-            return $" id: {IdArticulo} ,nombre: {NombreArticulo} ,categoria: {CategoriaArticulo} ,precio: {PrecioArticulo} ";
-
-        }
-
-      
+      return $"Nombre: {NombreArticulo}" +
+      $"\nID: {IdArticulo}" +
+      $"\nCategoría: {CategoriaArticulo}" +
+      $"\nPrecio: {PrecioArticulo}";
     }
+    #endregion
+  }
 }

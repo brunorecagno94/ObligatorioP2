@@ -9,9 +9,8 @@ namespace Dominio
 {
   public class Publicacion
   {
-
+    #region Atributos
     //HACER ENUM PARA ESTADO
-
     private int _idPublicacion;
     private string _nombrePublicacion;
     private string _estadoPublicacion;
@@ -21,11 +20,11 @@ namespace Dominio
     private DateTime _fechaFin;
     private Articulo _articuloPub;
 
-       static private List<Articulo> _listaArticulos;
+    static private List<Articulo> _listaArticulos;
+    #endregion
 
-
-
-        public int IdPublicacion { get; set; }
+    #region Propiedades
+    public int IdPublicacion { get; set; }
     public string NombrePublicacion { get; set; }
     public string EstadoPublicacion { get; set; }
     public DateTime FechaPublicacion { get; set; }
@@ -35,9 +34,10 @@ namespace Dominio
 
     static public List<Articulo> listaArticulos { get; set; }
 
+    #endregion
 
-
-        public Publicacion(int IdPublicacion, string NombrePublicacion, string EstadoPublicacion, DateTime FechaPublicacion, string ClienteComprador, string UsuarioFinalizador, DateTime FechaFin, List<Articulo> listaArticulos)
+    #region Constructores
+    public Publicacion(int IdPublicacion, string NombrePublicacion, string EstadoPublicacion, DateTime FechaPublicacion, string ClienteComprador, string UsuarioFinalizador, DateTime FechaFin, List<Articulo> listaArticulos)
     {
       this.IdPublicacion = IdPublicacion;
       this.NombrePublicacion = NombrePublicacion;
@@ -46,23 +46,19 @@ namespace Dominio
       this.ClienteComprador = ClienteComprador;
       this.UsuarioFinalizador = UsuarioFinalizador;
       this.FechaFin = FechaFin;
-            listaArticulos = listaArticulos;
-        }
-
-        public override string ToString()
-        {
-            return $"hola";
-        }
-
-
-
-        public string devolvervalores()
-        {
-            return $" id: {IdPublicacion} ,nombre: {NombrePublicacion} ,estado: {EstadoPublicacion} ,fechainicio: {FechaPublicacion} ";
-
-        }
-
-
-
+      listaArticulos = listaArticulos;
     }
+    #endregion
+
+    #region Métodos
+    public override string ToString()
+    {
+      return $"Nombre: {NombrePublicacion}" +
+      $"\nID: {IdPublicacion}" +
+      $"\nEstado: {EstadoPublicacion}" +
+      $"\nFecha de publicación: {FechaPublicacion}";
+    }
+    #endregion
+  }
 }
+

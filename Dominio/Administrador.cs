@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Dominio
 {
-    public class Administrador : Usuario
+  public class Administrador : Usuario
+  {
+    #region Constructores
+    public Administrador(int idUsuario, string nombreUsuario, string apellidoUsuario, string emailUsuario, string passUsuario) : base(idUsuario, nombreUsuario, apellidoUsuario, emailUsuario, passUsuario)
     {
-        public Administrador(int idUsuario, string nombreUsuario, string apellidoUsuario, string emailUsuario, string passUsuario) : base(idUsuario, nombreUsuario, apellidoUsuario, emailUsuario, passUsuario)
-        {
-        }
     }
+    #endregion
+  }
 }
