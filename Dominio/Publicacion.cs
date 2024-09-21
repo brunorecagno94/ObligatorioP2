@@ -18,7 +18,9 @@ namespace Dominio
     private string _clienteComprador;
     private string _usuarioFinalizador;
     private DateTime _fechaFin;
-    private Articulo _articuloPub;
+ 
+
+
 
     static private List<Articulo> _listaArticulos;
     #endregion
@@ -47,6 +49,26 @@ namespace Dominio
       this.UsuarioFinalizador = UsuarioFinalizador;
       this.FechaFin = FechaFin;
       listaArticulos = listaArticulos;
+<<<<<<< HEAD
+=======
+        }
+
+        public override string ToString()
+        {
+            return $"hola";
+        }
+
+
+
+        public string devolvervalores()
+        {
+            return $" id: {IdPublicacion} ,nombre: {NombrePublicacion} ,estado: {EstadoPublicacion} ,fechainicio: {FechaPublicacion} ";
+
+        }
+
+
+
+>>>>>>> 35f9630c461df418eb566b3aa21ea2e41d671a6f
     }
     #endregion
 
