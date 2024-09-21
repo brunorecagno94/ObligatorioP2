@@ -19,7 +19,9 @@ namespace Dominio
     private string _clienteComprador;
     private string _usuarioFinalizador;
     private DateTime _fechaFin;
-    private Articulo _articuloPub;
+ 
+
+
 
        static private List<Articulo> _listaArticulos;
 
@@ -46,7 +48,7 @@ namespace Dominio
       this.ClienteComprador = ClienteComprador;
       this.UsuarioFinalizador = UsuarioFinalizador;
       this.FechaFin = FechaFin;
-            listaArticulos = listaArticulos;
+      listaArticulos = listaArticulos;
         }
 
         public override string ToString()

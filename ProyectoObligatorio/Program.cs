@@ -7,14 +7,19 @@ namespace ProyectoObligatorio
     {
         static void Main(string[] args)
         {
+
+            // pre carga de datos
             List<Articulo> listaArticulos = new List<Articulo>();
 
             List<Publicacion> listaPublicaciones = new List<Publicacion>();
 
 
-            Cliente cliente1 = new Cliente(1,"Andy","Andrade","aaaa@gmail.com","andytoproyatusabes",400);
-            Articulo articulo1 = new Articulo(2, "hola", "hola",2);
+            Cliente cliente1 = new Cliente("Andy","Andrade","aaaa@gmail.com","andytoproyatusabes",400);
+            Articulo articulo1 = new Articulo("hola", "hola",2);
             listaArticulos.Add(articulo1);
+
+
+
 
             Publicacion publicacionuno = new Publicacion(22, "hola", "chau", new DateTime(2005, 3, 21), "hola", "hola", new DateTime(2009, 4, 5), listaArticulos);
             listaPublicaciones.Add(publicacionuno);
@@ -22,6 +27,7 @@ namespace ProyectoObligatorio
             List <Cliente> listaClientes = new List<Cliente>();
             listaClientes.Add(cliente1);
 
+   
             
 
             int opcion = -1;
@@ -58,11 +64,7 @@ namespace ProyectoObligatorio
 
                             if (articulo.CategoriaArticulo == respCategoria)
                             {
-
-                                Console.WriteLine(articulo.devolvervalores());
-
-
-
+                                Console.WriteLine(articulo);
                             }
 
                             else { Console.WriteLine("Tu categoria no esta en ningun articulo"); }
@@ -79,7 +81,6 @@ namespace ProyectoObligatorio
                         string nombreArticulo = Console.ReadLine();
 
                         Console.WriteLine("Elija una categoría para su artículo:");
-
                         string categoriaArticulo = Console.ReadLine();
 
                         Console.WriteLine("Elija un precio para su artículo:");
@@ -87,10 +88,11 @@ namespace ProyectoObligatorio
                         int precioArticulo;
                         int.TryParse(Console.ReadLine(), out precioArticulo);
 
+
                         if (nombreArticulo != null && categoriaArticulo != null && precioArticulo != null)
                         {
 
-                            Articulo articuloAlta = new Articulo(Articulo._idArticulo, nombreArticulo, categoriaArticulo, precioArticulo);
+                            Articulo articuloAlta = new Articulo(nombreArticulo, categoriaArticulo, precioArticulo);
 
                             listaArticulos.Add(articuloAlta);
 
@@ -102,6 +104,7 @@ namespace ProyectoObligatorio
                         break;
 
                     case 4:
+
                         Console.WriteLine("Elija su fecha de inicio (formato: año/mes/dia ej: 2000/01/01):");
 
                         DateTime fechaInicio;
