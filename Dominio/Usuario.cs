@@ -19,7 +19,17 @@ namespace Dominio
     public int IdUsuario { get; set; }
     public string NombreUsuario { get; set; }
     public string ApellidoUsuario { get; set; }
-    public string EMailUsuario { get; set; }
+    public string EmailUsuario { get; set; }
     public string PassUsuario { get; set; }
+
+
+        public Usuario(int idUsuario, string nombreUsuario, string apellidoUsuario, string emailUsuario, string passUsuario)
+        {
+            this.IdUsuario = idUsuario;
+            this.NombreUsuario = nombreUsuario;
+            this.ApellidoUsuario = apellidoUsuario;
+            this.EmailUsuario = emailUsuario;
+            this.PassUsuario = passUsuario;
+        }
   }
 }

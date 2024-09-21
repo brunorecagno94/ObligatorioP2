@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BRecagno\\.nuget\\packages\\": {}
+    "C:\\Users\\Andy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\P2 VISUAL STUDIO\\SistemaProyecto\\ProyectoObligatorio\\ProyectoObligatorio.csproj",
+      "projectUniqueName": "C:\\Obligatoriop2\\ObligatorioP2\\ProyectoObligatorio\\ProyectoObligatorio.csproj",
       "projectName": "ProyectoObligatorio",
-      "projectPath": "C:\\P2 VISUAL STUDIO\\SistemaProyecto\\ProyectoObligatorio\\ProyectoObligatorio.csproj",
-      "packagesPath": "C:\\Users\\BRecagno\\.nuget\\packages\\",
-      "outputPath": "C:\\P2 VISUAL STUDIO\\SistemaProyecto\\ProyectoObligatorio\\obj\\",
+      "projectPath": "C:\\Obligatoriop2\\ObligatorioP2\\ProyectoObligatorio\\ProyectoObligatorio.csproj",
+      "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
+      "outputPath": "C:\\Obligatoriop2\\ObligatorioP2\\ProyectoObligatorio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\BRecagno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -54,8 +54,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\P2 VISUAL STUDIO\\SistemaProyecto\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\P2 VISUAL STUDIO\\SistemaProyecto\\Dominio\\Dominio.csproj"
+            "C:\\Obligatoriop2\\ObligatorioP2\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Obligatoriop2\\ObligatorioP2\\Dominio\\Dominio.csproj"
             }
           }
         }

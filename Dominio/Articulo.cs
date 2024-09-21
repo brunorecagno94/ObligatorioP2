@@ -8,10 +8,11 @@ namespace Dominio
 {
   public class Articulo
   {
-    private int _idArticulo;
+    public static int _idArticulo;
     private string _nombreArticulo;
     private string _categoriaArticulo;
     private int _precioArticulo;
+
 
 
     public int IdArticulo { get; set; }
@@ -23,17 +24,25 @@ namespace Dominio
     public Articulo(int Id, string Nombre, string Categoria, int Precio)
     {
 
-      this._idArticulo = Id;
-      this._nombreArticulo = Nombre;
-      this._categoriaArticulo = Categoria;
-      this._precioArticulo = Precio;
+            _idArticulo = Id;
+            NombreArticulo = Nombre;
+            CategoriaArticulo = Categoria;
+            PrecioArticulo = Precio;
 
 
     }
 
     public override string ToString()
     {
-      return $" id: {_idArticulo} ,nombre: {_nombreArticulo} ,categoria: {_categoriaArticulo} ,precio: {_precioArticulo} ";
+            return $" id: {IdArticulo} ,nombre: {NombreArticulo} ,categoria: {CategoriaArticulo} ,precio: {PrecioArticulo} ";
+        }
+
+        public string devolvervalores()
+        {
+            return $" id: {IdArticulo} ,nombre: {NombreArticulo} ,categoria: {CategoriaArticulo} ,precio: {PrecioArticulo} ";
+
+        }
+
+      
     }
-  }
 }

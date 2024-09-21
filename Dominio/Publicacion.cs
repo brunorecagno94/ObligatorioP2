@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Dominio
 {
@@ -14,33 +15,54 @@ namespace Dominio
     private int _idPublicacion;
     private string _nombrePublicacion;
     private string _estadoPublicacion;
-    private int _fechaPublicacion;
+    private DateTime _fechaPublicacion;
     private string _clienteComprador;
     private string _usuarioFinalizador;
-    private int _fechaFin;
+    private DateTime _fechaFin;
     private Articulo _articuloPub;
 
+       static private List<Articulo> _listaArticulos;
 
-    public int IdPublicacion { get; set; }
+
+
+        public int IdPublicacion { get; set; }
     public string NombrePublicacion { get; set; }
     public string EstadoPublicacion { get; set; }
-    public int FechaPublicacion { get; set; }
+    public DateTime FechaPublicacion { get; set; }
     public string ClienteComprador { get; set; }
     public string UsuarioFinalizador { get; set; }
-    public int FechaFin { get; set; }
+    public DateTime FechaFin { get; set; }
 
-    public Articulo ArticuloPub { get; set; }
+    static public List<Articulo> listaArticulos { get; set; }
 
-    public Publicacion(int IdPublicacion, string NombrePublicacion, string EstadoPublicacion, int FechaPublicacion, string ClienteComprador, string UsuarioFinalizador, int FechaFin, Articulo Articulopub)
+
+
+        public Publicacion(int IdPublicacion, string NombrePublicacion, string EstadoPublicacion, DateTime FechaPublicacion, string ClienteComprador, string UsuarioFinalizador, DateTime FechaFin, List<Articulo> listaArticulos)
     {
-      this._idPublicacion = IdPublicacion;
-      this._nombrePublicacion = NombrePublicacion;
-      this._estadoPublicacion = EstadoPublicacion;
-      this._fechaPublicacion = FechaPublicacion;
-      this._clienteComprador = ClienteComprador;
-      this._usuarioFinalizador = UsuarioFinalizador;
-      this._fechaFin = FechaFin;
-      this._articuloPub = Articulopub;
+      this.IdPublicacion = IdPublicacion;
+      this.NombrePublicacion = NombrePublicacion;
+      this.EstadoPublicacion = EstadoPublicacion;
+      this.FechaPublicacion = FechaPublicacion;
+      this.ClienteComprador = ClienteComprador;
+      this.UsuarioFinalizador = UsuarioFinalizador;
+      this.FechaFin = FechaFin;
+            listaArticulos = listaArticulos;
+        }
+
+        public override string ToString()
+        {
+            return $"hola";
+        }
+
+
+
+        public string devolvervalores()
+        {
+            return $" id: {IdPublicacion} ,nombre: {NombrePublicacion} ,estado: {EstadoPublicacion} ,fechainicio: {FechaPublicacion} ";
+
+        }
+
+
+
     }
-  }
 }

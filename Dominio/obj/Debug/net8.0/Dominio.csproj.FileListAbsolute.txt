@@ -9,3 +9,27 @@ C:\P2 VISUAL STUDIO\SistemaProyecto\Dominio\obj\Debug\net8.0\Dominio.dll
 C:\P2 VISUAL STUDIO\SistemaProyecto\Dominio\obj\Debug\net8.0\refint\Dominio.dll
 C:\P2 VISUAL STUDIO\SistemaProyecto\Dominio\obj\Debug\net8.0\Dominio.pdb
 C:\P2 VISUAL STUDIO\SistemaProyecto\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:\proyectop22\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.deps.json
+C:\proyectop22\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.dll
+C:\proyectop22\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.pdb
+C:\proyectop22\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectop22\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\proyectop22\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\proyectop22\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\proyectop22\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.sourcelink.json
+C:\proyectop22\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\proyectop22\ObligatorioP2\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\proyectop22\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.pdb
+C:\proyectop22\ObligatorioP2\Dominio\obj\Debug\net8.0\ref\Dominio.dll
+C:\Obligatoriop2\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.deps.json
+C:\Obligatoriop2\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.dll
+C:\Obligatoriop2\ObligatorioP2\Dominio\bin\Debug\net8.0\Dominio.pdb
+C:\Obligatoriop2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Obligatoriop2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfoInputs.cache
+C:\Obligatoriop2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.AssemblyInfo.cs
+C:\Obligatoriop2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Obligatoriop2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.sourcelink.json
+C:\Obligatoriop2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.dll
+C:\Obligatoriop2\ObligatorioP2\Dominio\obj\Debug\net8.0\refint\Dominio.dll
+C:\Obligatoriop2\ObligatorioP2\Dominio\obj\Debug\net8.0\Dominio.pdb
+C:\Obligatoriop2\ObligatorioP2\Dominio\obj\Debug\net8.0\ref\Dominio.dll
