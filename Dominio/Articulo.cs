@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 
 namespace Dominio
 {
-  public class Articulo
+  public class Articulo : IValidable
   {
     #region Atributos
-    public static int _idArticulo = 1;
+    private static int _idArticuloGlobal = 0;
+    private int _idArticulo;
     private string _nombreArticulo;
     private string _categoriaArticulo;
     private int _precioArticulo;
     #endregion
 
     #region Propiedades
-    public int IdArticulo { get; }
+    public int IdArticulo
+    {
+      get { return _idArticulo; }
+      private set { _idArticulo = value; }
+    }
     public string NombreArticulo { get; set; }
     public string CategoriaArticulo { get; set; }
     public int PrecioArticulo { get; set; }
@@ -25,10 +30,12 @@ namespace Dominio
     #region Constructores
     public Articulo(string nombreArticulo, string categoriaArticulo, int precioArticulo)
     {
-      IdArticulo = _idArticulo++;
+      IdArticulo = _idArticuloGlobal++;
       NombreArticulo = nombreArticulo;
       CategoriaArticulo = categoriaArticulo;
       PrecioArticulo = precioArticulo;
+
+
     }
     #endregion
 
@@ -39,6 +46,24 @@ namespace Dominio
       $"\nID: {IdArticulo}" +
       $"\nCategoría: {CategoriaArticulo}" +
       $"\nPrecio: {PrecioArticulo}";
+    }
+
+    public void Validar()
+    {
+      if (string.IsNullOrEmpty(NombreArticulo))
+      {
+        throw new Exception("El nombre no puede estar vacio");
+      }
+
+      if (string.IsNullOrEmpty(CategoriaArticulo))
+      {
+        throw new Exception("La categoria no puede estar vacia");
+      }
+
+      if (PrecioArticulo <= 0)
+      {
+        throw new Exception("El precio del articulo debe ser mayor que 0");
+      }
     }
     #endregion
   }

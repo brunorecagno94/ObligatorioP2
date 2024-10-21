@@ -55,3 +55,22 @@ C:\Obligatoriop2\ObligatorioP2\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObli
 C:\Obligatoriop2\ObligatorioP2\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.genruntimeconfig.cache
 C:\Obligatoriop2\ObligatorioP2\ProyectoObligatorio\obj\Debug\net8.0\ref\ProyectoObligatorio.dll
 C:\P2 VISUAL STUDIO\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.sourcelink.json
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\bin\Debug\net8.0\ProyectoObligatorio.exe
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\bin\Debug\net8.0\ProyectoObligatorio.deps.json
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\bin\Debug\net8.0\ProyectoObligatorio.runtimeconfig.json
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\bin\Debug\net8.0\ProyectoObligatorio.dll
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\bin\Debug\net8.0\ProyectoObligatorio.pdb
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\bin\Debug\net8.0\Dominio.dll
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\bin\Debug\net8.0\Dominio.pdb
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.csproj.AssemblyReference.cache
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.AssemblyInfoInputs.cache
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.AssemblyInfo.cs
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.csproj.CoreCompileInputs.cache
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.sourcelink.json
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\Proyecto.7F03997F.Up2Date
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.dll
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\refint\ProyectoObligatorio.dll
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.pdb
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\ProyectoObligatorio.genruntimeconfig.cache
+C:\Users\Andy\Downloads\SistemaProyecto\SistemaProyecto\ProyectoObligatorio\obj\Debug\net8.0\ref\ProyectoObligatorio.dll

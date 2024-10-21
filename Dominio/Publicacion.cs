@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Dominio.Sistema;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Dominio
@@ -10,52 +11,50 @@ namespace Dominio
   public class Publicacion
   {
     #region Atributos
-    //HACER ENUM PARA ESTADO
+
+    private static int _idPublicacionGlobal = 0;
     private int _idPublicacion;
     private string _nombrePublicacion;
-    private string _estadoPublicacion;
+    private Estado _estadoPublicacion;
     private DateTime _fechaPublicacion;
-    private string _clienteComprador;
-    private string _usuarioFinalizador;
+    private Cliente _clienteComprador;
+    private Cliente _usuarioFinalizador;
     private DateTime _fechaFin;
- 
-
-
-
-    static private List<Articulo> _listaArticulos;
+    private static List<Articulo> _listaArticulos;
     #endregion
 
     #region Propiedades
-    public int IdPublicacion { get; set; }
+    public int IdPublicacion
+    {
+      get { return _idPublicacion; }
+      private set { _idPublicacion = value; }
+    }
     public string NombrePublicacion { get; set; }
-    public string EstadoPublicacion { get; set; }
+    public Estado EstadoPublicacion { get; set; }
     public DateTime FechaPublicacion { get; set; }
-    public string ClienteComprador { get; set; }
-    public string UsuarioFinalizador { get; set; }
+    public Cliente ClienteComprador { get; set; }
+    public Cliente UsuarioFinalizador { get; set; }
     public DateTime FechaFin { get; set; }
-
-    static public List<Articulo> listaArticulos { get; set; }
+    public static List<Articulo> ListaArticulos { get; set; }
 
     #endregion
 
     #region Constructores
-    public Publicacion(int IdPublicacion, string NombrePublicacion, string EstadoPublicacion, DateTime FechaPublicacion, string ClienteComprador, string UsuarioFinalizador, DateTime FechaFin, List<Articulo> listaArticulos)
+    public Publicacion(string nombrePublicacion, Estado estadoPublicacion, DateTime fechaPublicacion, List<Articulo> listaArticulos)
     {
-      this.IdPublicacion = IdPublicacion;
-      this.NombrePublicacion = NombrePublicacion;
-      this.EstadoPublicacion = EstadoPublicacion;
-      this.FechaPublicacion = FechaPublicacion;
-      this.ClienteComprador = ClienteComprador;
-      this.UsuarioFinalizador = UsuarioFinalizador;
-      this.FechaFin = FechaFin;
-      listaArticulos = listaArticulos;
+      IdPublicacion = _idPublicacionGlobal++;
+      this.NombrePublicacion = nombrePublicacion;
+      this.EstadoPublicacion = estadoPublicacion;
+      this.FechaPublicacion = fechaPublicacion;
+      ListaArticulos = listaArticulos;
     }
     #endregion
 
     #region Métodos
     public override string ToString()
     {
-      return $"Nombre: {NombrePublicacion}" +
+      return
+      $"\nNombre: {NombrePublicacion}" +
       $"\nID: {IdPublicacion}" +
       $"\nEstado: {EstadoPublicacion}" +
       $"\nFecha de publicación: {FechaPublicacion}";
